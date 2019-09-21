@@ -1,0 +1,17 @@
+body {
+    background-image: linear-gradient(to bottom right, #D11149, #1A8FE3);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+.welcome {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.welcome a img{
+    width: 70%;
+    height: 70%;
+}
