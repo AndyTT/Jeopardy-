@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to bottom right, rgb(253, 112, 119), rgb(165, 198, 252));
+    /* background-image: linear-gradient(to bottom right, #C1CEFE, #624CAB); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin-top: 50px;
@@ -32,15 +32,15 @@ body {
     border-top: none;
     border-right: none;
     border-left: none;
-    border-color: lightblue;
+    border-color: #624CAB;
     padding: 7px;
 }
 
 .loginSection button{
-    height: 32px;
-    width: 32px;
+    height: 35px;
+    width: 35px;
     background-color: #CCD5FF;
-    border-color: #E7BBE3;
+    border-color: #758ECD;
 }
 
 .alextrebek{
