@@ -1,17 +1,29 @@
 body {
-    background-image: linear-gradient(to bottom right, #D11149, #1A8FE3);
+    background-image: linear-gradient(to bottom right, rgb(253, 112, 119), rgb(165, 198, 252));
     background-repeat: no-repeat;
-    height: 100%;
     background-attachment: fixed;
 }
 
-.welcome {
+.welcome, .welcome a img, .welcome h3{
     display: block;
     margin: auto;
-    width: 50%;
-}
-
-.welcome a img{
     width: 70%;
     height: 70%;
+}
+
+.welcome h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+.loginSection {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.loginSection input {
+    width: 300px;
 }
