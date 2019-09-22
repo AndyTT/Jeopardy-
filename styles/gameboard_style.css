@@ -48,7 +48,7 @@ section div{
 section input {
     color: green;
     font-weight: bold;
-    border-color: 
+    border-color: green;
 }
 
 section input, section h2 {
