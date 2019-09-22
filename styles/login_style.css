@@ -2,6 +2,7 @@ body {
     background-image: linear-gradient(to bottom right, rgb(253, 112, 119), rgb(165, 198, 252));
     background-repeat: no-repeat;
     background-attachment: fixed;
+    margin-top: 50px;
 }
 
 .welcome, .welcome a img, .welcome h3{
@@ -21,9 +22,30 @@ body {
     margin: 0 auto;
     width: 50%;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 70px;
 }
 
 .loginSection input {
-    width: 300px;
+    width: 290px;
+    height: 17px;
+    background: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-color: lightblue;
+    padding: 7px;
+}
+
+.loginSection button{
+    height: 32px;
+    width: 32px;
+    background-color: #CCD5FF;
+    border-color: #E7BBE3;
+}
+
+.alextrebek{
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 70px;
 }
