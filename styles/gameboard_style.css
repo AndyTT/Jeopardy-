@@ -3,39 +3,55 @@ body{
     padding: 0;
 }
 
+/* Global CSS */
 header, section {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
+/* Global Font */
+header h1, section h2, section input {
+    font-family: 'Lato', sans-serif;
+}
+
 
 /* HEADER */
 header {
-    background-color: black;
-    height: 100px;
+    height: 60px;
     padding: 20px;
-    margin-bottom: 20px;
+    background-color: black;
 }
+
+header h1:first-child {
+    margin-left:5px;
+}
+
 header h1{
-    color: white;
+    color: #624CAB;
     margin-top: auto;
     margin-bottom: auto;
     margin-right: 100px;
     font-size: 50px;
-    font-family: 'Lato', sans-serif;
 }
 
 
 /* GAMEBOARD */
 section {
-}
-
-section div{
-    margin: auto;
     background-color: red;
+}
+section div{
+    margin: 10px auto;
+    background-color: #C1CEFE;
     width: 200px;
 }
 
-section div form input {
+section input {
+    color: green;
+    font-weight: bold;
+    border-color: 
+}
+
+section input, section h2 {
     display: block;
     margin: 20px auto;
     width: 150px;
