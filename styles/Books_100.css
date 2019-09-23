@@ -18,7 +18,7 @@ section {
     width: 500px;
     height: 350px;
     border-color: #624CAB;
-    border-style: solid;
+    border-style: outset;
     border-radius: 10px;
     border-width: 5px;
     box-shadow: 0 0 7px;
@@ -57,7 +57,7 @@ section td {
     font-weight: bolder;
     font-size: 15px;
     border-color: #7189FF;
-    border-style: solid;
+    border-style: outset;
     border-radius: 10px;
     border-width: 2px;
     box-shadow: 0 0 5px;
