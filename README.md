@@ -1,5 +1,5 @@
 # Jeopardy-
-Web App Assignment for Andy Tran
+Web App Assignment for Andy Tran (Not currently functional).
 
 <hr>
 <a href="https://andytt.github.io/Jeopardy-/src/login.html" target="_blank">Login Page</a><br><br>
