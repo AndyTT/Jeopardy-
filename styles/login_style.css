@@ -5,6 +5,7 @@ body {
     margin-top: 50px;
 }
 
+/* WELCOME LOGO */
 .welcome, .welcome a img, .welcome h3{
     display: block;
     margin: auto;
@@ -17,6 +18,8 @@ body {
     font-size: 20px;
 }
 
+
+/* LOGIN SECTION */
 .loginSection {
     display: block;
     margin: 0 auto;
@@ -43,9 +46,29 @@ body {
     border-color: #758ECD;
 }
 
-.alextrebek{
+/* FOOTER */
+footer {
+    display: flex;
+    flex-direction: row;
+}
+
+footer div {
+    margin: auto;
+}
+
+footer i {
+    margin: 20px auto;
+    padding: 3px;
+    font-size: 30px;
+}
+
+
+
+
+
+/* .alextrebek{
     display: block;
     margin: 0 auto;
     width: 70%;
     margin-top: 70px;
-}
+} */
